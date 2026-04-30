@@ -1,4 +1,4 @@
-module github.com/karelmolina/play5
+module github.com/karelmolina/go5
 
 go 1.26.1
 

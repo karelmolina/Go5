@@ -1,4 +1,4 @@
-# ⚽ Play5 Tournament API
+# ⚽ Go5 Tournament API
 
 A lightweight, email-free tournament management backend built with **Go** and **Fiber**. Designed for small soccer communities that currently organize everything through WhatsApp groups and need something simpler.
 
@@ -66,8 +66,8 @@ Players register with a username and password, fill out their profile, and wait 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Play5.git
-cd Play5
+git clone https://github.com/yourusername/Go5.git
+cd Go5
 
 # Copy environment file
 cp .env.example .env
@@ -319,7 +319,7 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_USER=postgres
 DB_PASSWORD=secret
-DB_NAME=Play5
+DB_NAME=Go5
 DB_SSL_MODE=disable
 
 # JWT

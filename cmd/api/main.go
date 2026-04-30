@@ -4,10 +4,10 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v3"
-	"github.com/karelmolina/play5/config"
-	"github.com/karelmolina/play5/database"
-	"github.com/karelmolina/play5/internal/utils"
-	"github.com/karelmolina/play5/router"
+	"github.com/karelmolina/go5/config"
+	"github.com/karelmolina/go5/database"
+	"github.com/karelmolina/go5/internal/utils"
+	"github.com/karelmolina/go5/router"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 		CaseSensitive: true,
 		StrictRouting: true,
 		ServerHeader:  "Fiber",
-		AppName:       "Play5",
+		AppName:       "Go5",
 	})
 
 	app.Get("/health", func(c fiber.Ctx) error {

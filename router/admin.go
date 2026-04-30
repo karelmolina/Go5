@@ -5,9 +5,9 @@ import (
 
 	"github.com/gofiber/fiber/v3"
 	"github.com/google/uuid"
-	"github.com/karelmolina/play5/database"
-	"github.com/karelmolina/play5/internal/utils"
-	"github.com/karelmolina/play5/model"
+	"github.com/karelmolina/go5/database"
+	"github.com/karelmolina/go5/internal/utils"
+	"github.com/karelmolina/go5/model"
 )
 
 type ApproveRequest struct {

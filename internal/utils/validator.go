@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/karelmolina/play5/database"
-	"github.com/karelmolina/play5/model"
+	"github.com/karelmolina/go5/database"
+	"github.com/karelmolina/go5/model"
 )
 
 var validate = validator.New(validator.WithRequiredStructEnabled())

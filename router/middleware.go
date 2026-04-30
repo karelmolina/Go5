@@ -5,7 +5,7 @@ import (
 
 	"github.com/gofiber/fiber/v3"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/karelmolina/play5/internal/utils"
+	"github.com/karelmolina/go5/internal/utils"
 )
 
 func AuthMiddleware(c fiber.Ctx) error {

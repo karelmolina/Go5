@@ -3,8 +3,8 @@ package database
 import (
 	"fmt"
 
-	"github.com/karelmolina/play5/config"
-	"github.com/karelmolina/play5/model"
+	"github.com/karelmolina/go5/config"
+	"github.com/karelmolina/go5/model"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -34,6 +34,6 @@ func ConnectDB() {
 	}
 
 	fmt.Println("Connection Opened to Database")
-	DB.AutoMigrate(&model.User{})
+	DB.AutoMigrate(&model.User{}, &model.Event{}, &model.EventResponse{})
 	fmt.Println("Database Migrated")
 }

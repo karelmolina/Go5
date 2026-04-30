@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
-	"github.com/karelmolina/play5/model"
+	"github.com/karelmolina/go5/model"
 )
 
 var jwtSecret []byte

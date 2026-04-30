@@ -51,6 +51,22 @@ func errorMessage(code, lang string) string {
 			"es": "Usuario no encontrado",
 			"en": "User not found",
 		},
+		"EVENT_NOT_FOUND": {
+			"es": "Evento no encontrado",
+			"en": "Event not found",
+		},
+		"EVENT_FULL": {
+			"es": "El evento ha alcanzado el número máximo de asistentes",
+			"en": "Event has reached the maximum number of attendees",
+		},
+		"RSVP_EXISTS": {
+			"es": "Ya has respondido a este evento",
+			"en": "You have already responded to this event",
+		},
+		"RSVP_NOT_FOUND": {
+			"es": "No se encontró tu respuesta para este evento",
+			"en": "Your response for this event was not found",
+		},
 	}
 
 	if m, ok := messages[code]; ok {

@@ -3,9 +3,9 @@ package router
 import (
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v3"
-	"github.com/karelmolina/play5/database"
-	"github.com/karelmolina/play5/internal/utils"
-	"github.com/karelmolina/play5/model"
+	"github.com/karelmolina/go5/database"
+	"github.com/karelmolina/go5/internal/utils"
+	"github.com/karelmolina/go5/model"
 )
 
 type RegisterRequest struct {
